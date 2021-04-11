@@ -5,9 +5,21 @@
       <div></div>
     </div>
     <div>
-      <span><router-link to="/">Home</router-link></span>
-      <span><router-link to="/user">Users</router-link></span>
-      <span><router-link to="/about">About us</router-link></span>
+      <span
+        ><router-link to="/" active-class="active"  exact
+          >Home</router-link
+        ></span
+      >
+      <span
+        ><router-link to="/user" active-class="active" exact
+          >Users</router-link
+        ></span
+      >
+      <span
+        ><router-link to="/about" active-class="active" exact
+          >About us</router-link
+        ></span
+      >
     </div>
   </header>
 </template>
@@ -28,5 +40,8 @@ a {
 }
 a:hover {
   color: yellowgreen;
+}
+.active{
+  color: green;
 }
 </style>

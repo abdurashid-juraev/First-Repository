@@ -2,6 +2,9 @@ import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
 import { routes } from './routes'
+import Vuex from 'vuex'
+
+
 
 //============================================//
 //components
@@ -15,6 +18,7 @@ Vue.component('comp-users', compUsers)
 //==========================================//
 
 Vue.use(VueRouter)
+Vue.use(Vuex)
 
 const router = new VueRouter({ routes, mode: 'history' });
 

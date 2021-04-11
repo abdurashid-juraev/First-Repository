@@ -34,7 +34,7 @@ h1 {
   max-width: 1200px;
   margin: 0 auto;
   padding: 50px;
-  height: 70vh;
+  height: 100vh;
   background: yellow;
 }
 </style>
